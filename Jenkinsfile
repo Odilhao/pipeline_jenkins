@@ -12,5 +12,5 @@ node {
       }
    }
    stage('Results') {
-           archive 'target/*.jar'
+           archive 'target/*.war'
 }
