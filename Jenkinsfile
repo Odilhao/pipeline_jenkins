@@ -4,4 +4,4 @@ node {
         echo 'Hello World'
       }
 }
-}
+
