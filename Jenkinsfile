@@ -2,7 +2,7 @@ node {
    def mvnHome
    stage('Definindo o fonte') {
       git 'https://github.com/Odilhao/os-sample-java-web.git'
-      mvnHome = tool 'M3'
+      mvnHome = tool 'mvn'
    }
    stage('Construindo') {
       if (isUnix()) {
