@@ -1,3 +1,7 @@
 node {
-   echo 'Hello World'
+
+   stage('Hello World') {
+        echo 'Hello World'
+      }
+}
 }
