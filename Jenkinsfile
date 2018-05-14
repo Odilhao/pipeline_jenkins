@@ -12,6 +12,6 @@ node {
       }
    }
    stage('Resultado') {
-           archive 'target/*.war'
+           archiveArtifacts artifacts: 'target/*.war', fingerprint: true
 }
 }
